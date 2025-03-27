@@ -27,7 +27,7 @@ public class Main {
                 even++;
             } else odd++;
         }
-        System.out.println("positive: " + positive + ", negative: " + negative + ", even: " + even + ", odd: " + odd);
+        System.out.println("Array has " + positive + " positive, " + negative + " negative, " + odd + " odd and " + even + " even numbers." );
     }
 
     public static Boolean ifPositive(int number){
